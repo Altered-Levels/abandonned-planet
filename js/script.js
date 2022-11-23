@@ -1010,11 +1010,11 @@ var lastTime;
   if (check) check();
 
   //display coordinates
-  info.innerHTML = `<span>X: </span>${mesh.position.x.toFixed(
-		2
-	)}, &nbsp;&nbsp;&nbsp; <span>Y: </span>${mesh.position.y.toFixed(
-		2
-	)}, &nbsp;&nbsp;&nbsp; <span>Z: </span>${mesh.position.z.toFixed(2)}`;
+  // info.innerHTML = `<span>X: </span>${mesh.position.x.toFixed(
+  //	2
+  // )}, &nbsp;&nbsp;&nbsp; <span>Y: </span>${mesh.position.y.toFixed(
+  //	2
+  // )}, &nbsp;&nbsp;&nbsp; <span>Z: </span>${mesh.position.z.toFixed(2)}`;
 
   //flag
   modifier && modifier.apply();
